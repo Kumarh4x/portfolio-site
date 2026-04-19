@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberSec Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="scroll-progress"></div>
+    
+    <nav class="navbar">
+        <div class="logo">Pavan<span class="glow-text">Kumar P</span></div>
+        <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#profiles">Profiles</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <div class="cursor-glow"></div>
+
+    <main id="app-container">
+        <!-- 1. HERO -->
+        <section id="hero" class="hero-section">
+            <div class="hero-background">
+                <div class="cyber-grid"></div>
+            </div>
+            <div class="hero-content">
+                <div class="terminal-prompt">
+                    <span class="prompt-user">pavan@kali</span>:<span class="prompt-dir">~</span>$ <span class="typing-text">./hack_the_planet.sh</span>
+                </div>
+                <h1 class="hero-title">
+                    <span class="glitch" data-text="PAVAN">PAVAN</span><br>
+                    <span class="glitch" data-text="KUMAR P">KUMAR P</span>
+                </h1>
+                <p class="hero-subtitle">BCA Student // Cybersecurity Enthusiast // Aspiring Penetration Tester.<br>Learning by breaking things and solving TryHackMe labs.</p>
+                <div class="scroll-indicator">
+                    <span>SCROLL TO INFILTRATE</span>
+                    <div class="arrow-down"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. ABOUT -->
+        <section id="about" class="about-section">
+            <div class="about-container">
+                <div class="about-text">
+                    <h2 class="section-title"><span class="bracket">[</span> ABOUT ME <span class="bracket">]</span></h2>
+                    <p class="split-text">I'm a 2nd year BCA student driven by a deep obsession with cybersecurity and ethical hacking.</p>
+                    <p class="split-text">I don't just study theory. I spend my time in the trenches, actively exploiting vulnerabilities and solving labs on TryHackMe. My ultimate objective? Becoming a top-tier professional penetration tester.</p>
+                </div>
+                <div class="about-visual">
+                    <div class="image-mask secure-image-container" id="profile-container">
+                        <img src="profile.png" alt="Profile Picture" class="secure-image" draggable="false">
+                        <div class="secure-overlay"></div>
+                    </div>
+                    <div class="deco-box deco-1"></div>
+                    <div class="deco-box deco-2"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. SKILLS -->
+        <section id="skills" class="skills-section">
+            <h2 class="section-title center"><span class="bracket">[</span> TECH STACK <span class="bracket">]</span></h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">NET</div>
+                    <h3>Networking Fundamentals</h3>
+                    <div class="progress-bar-bg"><div class="progress-fill" data-width="85%"></div></div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">WEB</div>
+                    <h3>Web App Security</h3>
+                    <div class="progress-bar-bg"><div class="progress-fill" data-width="80%"></div></div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">PEN</div>
+                    <h3>Basic Pen Testing</h3>
+                    <div class="progress-bar-bg"><div class="progress-fill" data-width="75%"></div></div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">SQL</div>
+                    <h3>SQL & Databases</h3>
+                    <div class="progress-bar-bg"><div class="progress-fill" data-width="70%"></div></div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">DEV</div>
+                    <h3>HTML, CSS, JS</h3>
+                    <div class="progress-bar-bg"><div class="progress-fill" data-width="90%"></div></div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">LNX</div>
+                    <h3>Linux Basics</h3>
+                    <div class="progress-bar-bg"><div class="progress-fill" data-width="85%"></div></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. PROFILES -->
+        <section id="profiles" class="profiles-section">
+            <h2 class="section-title center"><span class="bracket">[</span> DIGITAL FOOTPRINTS <span class="bracket">]</span></h2>
+            <div class="profiles-grid">
+                <a href="https://www.linkedin.com/in/pavankumarp08" target="_blank" rel="noopener noreferrer" class="profile-card">
+                    <img src="linkedin.png" alt="LinkedIn" class="profile-logo">
+                    <h3>LinkedIn</h3>
+                </a>
+                <a href="https://tryhackme.com/p/pavankumar.h4x" target="_blank" rel="noopener noreferrer" class="profile-card">
+                    <img src="tryhackme.png" alt="TryHackMe" class="profile-logo">
+                    <h3>TryHackMe</h3>
+                </a>
+                <a href="https://github.com/Kumarh4x" target="_blank" rel="noopener noreferrer" class="profile-card">
+                    <img src="github.png" alt="GitHub" class="profile-logo">
+                    <h3>GitHub</h3>
+                </a>
+            </div>
+        </section>
+
+        <!-- 5. CONTACT -->
+        <section id="contact" class="contact-section">
+            <div class="contact-glass">
+                <h2 class="section-title center"><span class="bracket">[</span> INITIATE CONNECTION <span class="bracket">]</span></h2>
+                <form class="contact-form" onsubmit="event.preventDefault();">
+                    <div class="input-group">
+                        <input type="text" id="name" required placeholder=" ">
+                        <label for="name">Identifier (Name)</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="email" id="email" required placeholder=" ">
+                        <label for="email">Comms Link (Email)</label>
+                    </div>
+                    <div class="input-group">
+                        <textarea id="message" required rows="4" placeholder=" "></textarea>
+                        <label for="message">Encrypted Payload (Message)</label>
+                    </div>
+                    <button type="submit" class="btn-glow submit-btn">TRANSMIT</button>
+                </form>
+            </div>
+        </section>
+        
+        <footer>
+            <div class="footer-content">
+                <p>PAVAN.KUMAR.P // ALL RIGHTS RESERVED © 2026</p>
+                <div class="terminal-easter-egg">
+                    <span>> click to open terminal_</span>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.19/bundled/lenis.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
